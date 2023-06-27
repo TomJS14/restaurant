@@ -1,7 +1,7 @@
 import heroImage from "/src/indexPage/hero-image.jpg"
 
 function homeLoad() {
-    //Clear Main element first
+    //Clear Main element first.
     const element = document.querySelector("#content")
     const main = document.querySelector("main")
     main.textContent = ""

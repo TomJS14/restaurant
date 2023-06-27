@@ -28,7 +28,7 @@ function pageLoad() {
     footerText.textContent = `${new Date().getFullYear()} Made by TomJS14`
     footerText2.textContent = `Another generic restaurant website`
     
-    //set attributes
+    //set attributes.
     header.classList.add("header")
     navlist.classList.add("nav-list")
     listItemOne.classList.add("menu-button")

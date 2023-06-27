@@ -52,7 +52,7 @@ function menuLoad() {
     const pizza6 = new Image();
     pizza6.src = napolotena;
 
-    //menu styling
+    //menu styling.
     card1.classList.add("menu-card")
     card2.classList.add("menu-card")
     card3.classList.add("menu-card")

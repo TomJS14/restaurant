@@ -4,7 +4,7 @@ import { menuLoad }from "./menu.js"
 import {aboutUsLoad} from "./about-us.js"
 import { homeLoad } from "./homeLoad"
 
-//select the content div
+//select the content div.
 const content = document.querySelector("#content")
 
 //Display the contents of PageLoad module

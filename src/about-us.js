@@ -2,7 +2,7 @@ import mapScreenshot from "/src/aboutPage/map.png"
 
 
 function aboutUsLoad() {
-    //clear main element first
+    //clear main element first.
     const element = document.querySelector("#content")
     const main = document.querySelector("main")
     main.textContent = ""
