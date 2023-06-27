@@ -1,11 +1,16 @@
 {
   "name": "restaurant",
   "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/{TomJS14}/{restaurant}.git"
+  },
   "description": "Split out modules",
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "watch": "webpack --watch",
     "server": "node server.js",
     "start": "webpack serve --open"
@@ -17,6 +22,7 @@
     "css-loader": "^6.8.1",
     "express": "^4.18.2",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.3",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.0",
